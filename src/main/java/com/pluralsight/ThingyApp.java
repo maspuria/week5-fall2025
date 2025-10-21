@@ -4,5 +4,6 @@ public class ThingyApp {
     public static void main(String[] args) {
         Thingy thingy = new Thingy();
         thingy.foo("My string",77);
+        thingy.foo(44,"Hi");
     }
 }
